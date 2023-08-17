@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Materialize CSS -->
+    <!-- Fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- Fonts links -->
+</head>
+<body>
+    <!-- top navbar -->
+    <nav class="top-navbar">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo center">WELCOME TO OUR SHOP</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="login.html"><img src="./images/register.png" alt="" width="18px">Login</a></li>
+                <li><a href="register.html"><img src="./images/register.png" alt="" width="18px">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- top navbar -->
+    <!-- navbar -->
+    <nav class="navbar-fixed">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo" id="logo"><span id="span1">E</span>Lectronic <span>Shop</span></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li class="dropdown-trigger" data-target="dropdown1">
+                    <a href="#">Category<i class="material-icons right">arrow_drop_down</i></a>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar -->
+    <!-- sidenav mobile -->
+    <ul class="sidenav" id="mobile-demo">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-trigger" data-target="dropdown2">Category<i class="material-icons right">arrow_drop_down</i></a>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- sidenav mobile -->
+    <div class="container" id="login">
+        <div class="row">
+            <div class="col s12 m5 py-3 py-m5" id="side1">
+                <h3 class="center-align">Welcome Back!</h3>
+            </div>
+            <div class="col s12 m7 py-3 py-m7" id="side2">
+                <h3 class="center-align">Account Login</h3>
+                <p class="center-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sequi.</p>
+                <form>
+                    <div class="input-field">
+                        <input id="name" type="text" class="validate">
+                        <label for="name">User Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                    <p class="center-align" id="btnlogin">
+                        <button class="btn waves-effect waves-light" type="submit">LOG IN</button>
+                    </p>
+                </form>
+                <p class="center-align">Forgot Password <a href="#">Click</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- newslater -->
+    <div class="container" id="newslater" style="margin-top: 100px;">
+        <h3 class="center-align">Subscribe To The Electronic Shop For Latest Upload.</h3>
+        <form>
+            <div class="input-field center-align">
+                <input id="email" type="email" class="validate">
+                <label for="email">Enter Your Email..</label>
+            </div>
+            <p class="center-align">
+                <button class="btn waves-effect waves-light" type="submit">SUBSCRIBE</button>
+            </p>
+        </form>
+    </div>
+    <!-- newslater -->
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m3">
+                        <h3>Electronic Shop</h3>
+                        <p>
+                            Karachi <br>
+                            Sindh <br>
+                            Pakistan <br>
+                        </p>
+                        <strong>Phone:</strong> +000000000000000 <br>
+                        <strong>Email:</strong> electronicshop@.com <br>
+                    </div>
+                    <div class="col s12 m3">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col s12 m3">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#">PS 5</a></li>
+                            <li><a href="#">Computer</a></li>
+                            <li><a href="#">Gaming Laptop</a></li>
+                            <li><a href="#">Mobile Phone</a></li>
+                            <li><a href="#">Gaming Gadget</a></li>
+                        </ul>
+                    </div>
+                    <div class="col s12 m3">
+                        <h4>Our Social Networks</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, quibusdam.</p>
+                        <div class="social-links mt-3">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-skype"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container py-4">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Electronic Shop</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by <a href="#">SA coding</a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+    <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var sidenav = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(sidenav);
+
+            var dropdown1 = document.querySelectorAll('.dropdown-trigger');
+            M.Dropdown.init(dropdown1, { coverTrigger: false });
+
+            var dropdown2 = document.querySelectorAll('.dropdown-trigger');
+            M.Dropdown.init(dropdown2, { coverTrigger: false });
+        });
+    </script>
+    <!-- Materialize JavaScript -->
+</body>
+</html>

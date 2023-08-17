@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronic Shop</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Materialize CSS -->
+  <!-- Fonts links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <!-- Fonts links -->
+</head>
+<body>
+  <!-- top navbar -->
+  <div class="top-navbar">
+    <p>WELCOME TO OUR SHOP</p>
+    <div class="icons">
+      <a href="login.html"><img src="./images/register.png" alt="" width="18px">Login</a>
+      <a href="register.html"><img src="./images/register.png" alt="" width="18px">Register</a>
+    </div>
+  </div>
+  <!-- top navbar -->
+  <!-- navbar -->
+  <nav>
+    <div class="nav-wrapper" id="navbar">
+      <a href="index.html" class="brand-logo" id="logo"><span id="span1">E</span>Lectronic <span>Shop</span></a>
+      <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown-menu">Category<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul id="dropdown-menu" class="dropdown-content" style="background-color: rgb(67, 0, 86);">
+        <li><a href="#">Samrt Phone</a></li>
+        <li><a href="#">Mobile Phone</a></li>
+        <li><a href="#">Cameras</a></li>
+        <li><a href="#">Fridge</a></li>
+        <li><a href="#">AC</a></li>
+        <li><a href="#">Samrt Watch</a></li>
+        <li><a href="#">Headphone</a></li>
+        <li><a href="#">Laptop</a></li>
+        <li><a href="#">PC Moniter</a></li>
+      </ul>
+      <ul class="sidenav" id="mobile-menu">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <form class="right" id="search">
+        <div class="input-field">
+          <input type="search" placeholder="Search" aria-label="Search">
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <!-- navbar -->
+  <div class="container" id="contact">
+    <div class="row" style="margin-top: 50px;">
+      <div class="col m4">
+        <div class="card">
+            <i class="fas fa-phone">phone</i>
+            <h6>+0000000000000000000</h6>
+        </div>
+      </div>
+      <div class="col m4">
+        <div class="card">
+            <i class="fas fa-location-dot">email</i>
+            <h6>example@gmail.com</h6>
+        </div>
+      </div>
+      <div class="col m4">
+        <div class="card">
+            <i class="fas fa-location-dot">Address</i>
+            <h6>Karachi Sindh Pakistan</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row container" style="margin-top: 50px;">
+      <div class="col s4 m4">
+        <div class="input-field">
+          <input type="text" placeholder="Name">
+        </div>
+      </div>
+      <div class="col s4 m4">
+        <div class="input-field">
+          <input type="text" placeholder="Email">
+        </div>
+      </div>
+      <div class="col s4 m4">
+        <div class="input-field">
+          <input type="text" placeholder="Phone">
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="input-field">
+          <textarea class="materialize-textarea" placeholder="Message"></textarea>
+        </div>
+      </div>
+      <div class="col s12 center-align">
+        <button class=" messagebtn btn waves-effect waves-light">Message</button>
+      </div>
+    </div>
+    
+  </div>
+  </div>
+  <!-- newslater -->
+  <div class="container" id="newslater">
+    <h3 class="center-align">Subscribe To The Electronic Shop For Latest Upload.</h3>
+    <div class="input text-center">
+      <input type="text" placeholder="Enter Your Email..">
+      <button id="subscribe" class="btn waves-effect waves-light">SUBSCRIBE</button>
+    </div>
+  </div>
+  <!-- newslater -->
+  <!-- footer -->
+  <footer class="page-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6 l3 footer-contact">
+            <h3>Electronic Shop</h3>
+            <p>
+              Karachi <br>
+              Sindh <br>
+              Pakistan <br>
+            </p>
+            <strong>Phone:</strong> +000000000000000 <br>
+            <strong>Email:</strong> electronicshop@.com <br>
+          </div>
+          <div class="col s12 m6 l3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="col s12 m6 l3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">PS 5</a></li>
+              <li><a href="#">Computer</a></li>
+              <li><a href="#">Gaming Laptop</a></li>
+              <li><a href="#">Mobile Phone</a></li>
+              <li><a href="#">Gaming Gadget</a></li>
+            </ul>
+          </div>
+          <div class="col s12 m6 l3 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, quibusdam.</p>
+            <div class="social-links mt-3">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-skype"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Electronic Shop</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">SA coding</a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+  <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
